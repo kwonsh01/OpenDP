@@ -876,7 +876,6 @@ bool circuit::shift_move(cell* theCell, string mode) {
 }
 
 bool circuit::map_move(cell* theCell, string mode) {
-  cout<<"aaaaaaaaa"<<endl;
   int x = INT_MAX;
   int y = INT_MAX;
   if(mode == "init_coord") {
